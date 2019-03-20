@@ -21,7 +21,7 @@ double triangulo::GetLado2(){
 double triangulo::GetLado3(){
   return Lado3;
 }
-triangulo triangulo::operator+(triangulo t){
+double triangulo::operator+(triangulo t){
   double soma = area()+t.area();
   return soma;
 }
