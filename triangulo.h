@@ -12,6 +12,6 @@ class triangulo{
     double GetLado1();
     double GetLado2();
     double GetLado3();
-    triangulo operator+(triangulo T);
+    double operator+(triangulo T);
 };
 #endif
