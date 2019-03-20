@@ -5,8 +5,11 @@ int main() {
   int opcao;
   double vetor[10];
   int count=0;
-  int i=0, j;
+  int i=0, j, k;
   double somatoria;
+  for(k=0;k<10;k++){
+    vetor[k] = 0;
+  }
   while (true){
     cout<<"0-sair\n";
     cout<<"1-informar dados do proximo triangulo(lados) em metros\n";
