@@ -1,17 +1,17 @@
 #ifndef TRIANGULO_H
 #define TRIANGULO_H
-class Triangulo{
+class triangulo{
   private:
     double Lado1;
     double Lado2;
     double Lado3;
   public:
-    Triangulo(double a, double b, double c);
-    ~Triangulo();
+    triangulo(double a, double b, double c);
+    ~triangulo();
     double area();
     double GetLado1();
     double GetLado2();
     double GetLado3();
-    Triangulo operator+(Triangulo T);
+    triangulo operator+(triangulo T);
 };
 #endif
